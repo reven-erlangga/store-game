@@ -13,10 +13,6 @@ export default function Row(props : Partial<RowProps>) {
       <span
         className={`purchase-details ${className}`}
       >
-        {typeof value === 'number' ? (
-        ) : (
-          value
-        )}
       </span>
 
     </p>
