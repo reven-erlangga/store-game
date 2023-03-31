@@ -14,13 +14,6 @@ export default function Row(props : Partial<RowProps>) {
         className={`purchase-details ${className}`}
       >
         {typeof value === 'number' ? (
-          <NumberFormat
-            value={value}
-            prefix="Rp. "
-            displayType="text"
-            thousandSeparator="."
-            decimalSeparator=","
-          />
         ) : (
           value
         )}
