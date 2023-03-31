@@ -16,5 +16,8 @@
       { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
     ],
     "react/react-in-jsx-scope": "off"
+  },
+  "parserOptions": {
+    "project": ["path/to/your/tsconfig/file"]
   }
 }
