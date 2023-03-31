@@ -43,13 +43,7 @@ export default function TableRow(props: TableRowProps) {
       </td>
       <td>
         <p className="fw-medium text-start color-palette-1 m-0">
-          <NumberFormat
-            value={price}
-            prefix="Rp. "
-            displayType="text"
-            thousandSeparator="."
-            decimalSeparator=","
-          />
+          
 
         </p>
       </td>
